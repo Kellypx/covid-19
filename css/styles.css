@@ -10503,16 +10503,3 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-
-/*my additon*/
-/*標題圖片*/
-header.masthead {
-	  padding-top: 10.5rem;
-	  text-align: center;
-	  color: #fff;
-	  background-image: url("../assets/img/Earth.jpg");
-	  background-repeat: no-repeat;
-	  background-attachment: scroll;
-	  background-position: center center;
-	  background-size: cover;
-	}
