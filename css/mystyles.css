@@ -1,0 +1,11 @@
+/*首頁照片設定*/
+header.masthead {
+	  padding-top: 10.5rem;
+	  text-align: center;
+	  color: #fff;
+	  background-image: url("../assets/img/Earth.jpg");
+	  background-repeat: no-repeat;
+	  background-attachment: scroll;
+	  background-position: center center;
+	  background-size: cover;
+	}
