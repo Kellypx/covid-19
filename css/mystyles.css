@@ -16,7 +16,6 @@ div#icon{
 	display:flex;
 	justify-content:space-around;
 	flex-wrap:wrap;
+	text-align:center;
 }
-div#icon i a:hover{
-	text-shadow:  2px 2px 3px gray;
-}
+
