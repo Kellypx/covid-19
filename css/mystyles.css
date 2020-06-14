@@ -17,5 +17,7 @@ div#icon{
 	justify-content:space-around;
 	flex-wrap:wrap;
 	text-align:center;
+	padding-right:0.5rem;
+	padding-left:0.5rem;
 }
 
