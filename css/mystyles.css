@@ -9,6 +9,10 @@ header.masthead {
 	  background-position: center center;
 	  background-size: cover;
 	}
+#first{
+	display:flex;
+	justify-content:space-around;
+}
 .row{
 	 justify-content:space-around;
 }
