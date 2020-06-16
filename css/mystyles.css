@@ -25,9 +25,3 @@ div#icon{
 	padding-right:0.5rem;
 	padding-left:0.5rem;
 }
-#second{
-	display:flex;
-	justify-content:space-around;
-	margin:8rem;
-}
-
