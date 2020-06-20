@@ -32,8 +32,17 @@ div#icon{
 .timeline p{
 	text-align:left;
 }
+/*hover*/
+.portfolio-item{
+	 position: relative;
+         width: 100%;
+         max-width: 400px;
+}
+.img-fluid{
+	width: 100%;
+  height: auto;
+}
 .hover{
-	display: flex;
         position: absolute;
         width: 100%;
         height: 100%;
@@ -42,13 +51,17 @@ div#icon{
         justify-content: center;
         opacity: 0;
         transition: opacity ease-in-out 0.25s;
-	
-	font-size: 1.25rem;
-        color: white;
-	
-	opacity: 1;
 }
-.hover-hover{
-	font-size: 1.25rem;
-        color: white;
+.portfolio-item:hover  .hover{
+	opacity:1;
+}
+.icon{
+	color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
