@@ -413,8 +413,9 @@
                         </div>
                     </div>
                     <div class="text-center">
-                        <div id="success"></div>
+                      <a id="mailTo">
                         <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Send Message</button>
+                      </a>
                     </div>
                 </form>
             </div>
@@ -474,6 +475,30 @@
                 </div>
             </div>
         </div>
+<!--mail-->
+        <script>
+            var initSubject='',initBody='';
+                function submitHandler(){
+                    var to = "A108070008@mail.shu.edu.tw";
+                    var name = name.value;
+                    var email = email.value;
+                    var tel = phone.value;
+                    var mes = message.value;
+                                                         
+                    var body = ""+bodyText.value+'%0A%0A%0A';
+                    body += "From："+name.value+'%0A';
+                    body += "Email："+email.value+'%0A';
+                    body += "Tel："+phone.value;
+
+                    mailTo.href="mailto:"+to+"?subject="+subject+"&body="+body;
+                    mailTo.click();
+    }
+
+        function init(){
+            toText.value=initTo;
+            message.value=initBody;
+    }
+</script>
 
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
