@@ -492,14 +492,13 @@
                     var name = nametext.value;
                     var email = emailtext.value;
                     var tel = phonetext.value;
-                    var mes = message.value;
                                                          
                     var body = ""+message.value+'%0A%0A%0A';
                     body += "From："+nametext.value+'%0A';
                     body += "Email："+emailtext.value+'%0A';
                     body += "Tel："+phonetext.value;
 
-                    mailTo.href="mailto:"+to+"?subject="+subject+"&body="+body;
+                    mailTo.href="mailto:"+to+"&body="+body;
                     mailTo.click();
     }
 
