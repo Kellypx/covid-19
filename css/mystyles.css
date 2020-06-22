@@ -16,6 +16,7 @@ header.masthead {
 	display:flex;
 	justify-content:space-around;
 	margin:8rem;
+	text-align:justify;
 }
 .row{
 	 justify-content:space-around;
