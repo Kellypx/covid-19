@@ -72,3 +72,6 @@ div#icon{
 #prevention{
 	background-color:#17a2b8;
 }
+#prevention h2, h5{
+	color: white;
+}
